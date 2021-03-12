@@ -39,7 +39,7 @@ void setup() {
   WiFiManager wifiManager;
   
   // Borra toda la información guardada
-  //wifiManager.resetSettings();
+  wifiManager.resetSettings();
   
   // set custom ip for portal
   //wifiManager.setAPConfig(IPAddress(10,0,1,1), IPAddress(10,0,1,1), IPAddress(255,255,255,0));
